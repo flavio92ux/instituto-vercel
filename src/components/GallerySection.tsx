@@ -19,10 +19,6 @@ const images = [
     alt: "Hora da leitura em grupo"
   },
   {
-    src: "https://images.pexels.com/photos/8535104/pexels-photo-8535104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Experiência científica para crianças"
-  },
-  {
     src: "https://images.pexels.com/photos/8613353/pexels-photo-8613353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Aula de música com instrumentos"
   }

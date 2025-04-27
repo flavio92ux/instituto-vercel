@@ -27,7 +27,7 @@ const HeroSection = () => {
                 href="#contact" 
                 className="inline-flex items-center px-6 py-3 text-white bg-blue-500 rounded-full shadow-lg hover:bg-blue-600 transition-colors duration-300"
               >
-                Inscreva-se Agora
+                Inscreva-se
                 <ArrowRight size={20} className="ml-2" />
               </a>
               <a 
