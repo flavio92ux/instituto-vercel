@@ -1,10 +1,9 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
     <section id="home" className="relative pt-20 pb-16 md:pt-32 md:pb-24 overflow-hidden">
-      {/* Background Elements */}
+      {/* Elementos de Fundo */}
       <div className="absolute top-0 right-0 -mr-40 -mt-40 w-96 h-96 rounded-full bg-blue-100 opacity-70"></div>
       <div className="absolute bottom-0 left-0 -ml-40 -mb-40 w-96 h-96 rounded-full bg-red-100 opacity-70"></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl">
@@ -17,25 +16,25 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-              <span className="text-blue-500">Nurturing</span> Young Minds, 
-              <span className="text-red-500"> Building</span> Bright Futures
+              <span className="text-blue-500">Nutrir</span> Mentes Jovens,
+              <span className="text-red-500"> Construir </span> Futuros Brilhantes
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg">
-              At KidsLearn, we create a loving, playful environment where children explore, discover, and grow into confident learners.
+            No Instituto Ser Feliz, criamos um ambiente acolhedor onde crianças e famílias em situação de vulnerabilidade podem crescer e se desenvolver por meio de atividades educativas e sociais.
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
                 href="#contact" 
                 className="inline-flex items-center px-6 py-3 text-white bg-blue-500 rounded-full shadow-lg hover:bg-blue-600 transition-colors duration-300"
               >
-                Enroll Now
+                Inscreva-se Agora
                 <ArrowRight size={20} className="ml-2" />
               </a>
               <a 
                 href="#programs" 
                 className="inline-flex items-center px-6 py-3 text-blue-500 border-2 border-blue-500 rounded-full hover:bg-blue-50 transition-colors duration-300"
               >
-                Explore Programs
+                Explorar Programas
               </a>
             </div>
           </div>
@@ -46,7 +45,7 @@ const HeroSection = () => {
               <div className="relative z-10 overflow-hidden rounded-3xl shadow-xl">
                 <img 
                   src="https://images.pexels.com/photos/8535214/pexels-photo-8535214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                  alt="Children playing and learning" 
+                  alt="Crianças brincando e aprendendo" 
                   className="w-full h-auto object-cover transform transition-transform duration-700 hover:scale-105"
                 />
               </div>

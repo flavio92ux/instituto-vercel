@@ -9,8 +9,8 @@ const Logo = () => {
         <BookOpen size={24} className="text-white relative z-10" />
       </div>
       <div className="ml-2">
-        <div className="text-xl font-bold text-blue-500">KidsLearn</div>
-        <div className="text-xs font-medium text-red-500">Nurturing Young Minds</div>
+        <div className="text-xl font-bold text-blue-500">Instituto Ser Feliz</div>
+        <div className="text-xs font-medium text-red-500">Industrial Contagem</div>
       </div>
     </div>
   );

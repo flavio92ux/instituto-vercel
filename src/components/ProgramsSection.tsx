@@ -4,45 +4,24 @@ import { Baby, AlarmClock, Palette, Music, BookOpen, Calculator } from 'lucide-r
 const programs = [
   {
     icon: <Baby size={32} className="text-blue-500" />,
-    title: "Toddler Program",
-    age: "Ages 2-3",
-    description: "A gentle introduction to the school environment with plenty of play, stories, and activities that develop fine and gross motor skills.",
+    title: "Programa para Bebês",
+    age: "Idades 1-3 anos",
+    description: "Uma introdução suave ao ambiente escolar com muitas brincadeiras, histórias e atividades que desenvolvem habilidades motoras finas e grossas.",
     color: "bg-blue-50 border-blue-200"
   },
   {
     icon: <Palette size={32} className="text-red-500" />,
-    title: "Preschool",
-    age: "Ages 3-4",
-    description: "Focused on creativity, language development, and social skills through art, music, storytelling, and group activities.",
+    title: "Educação Infantil",
+    age: "Idades 2-3 anos",
+    description: "Foco na criatividade, desenvolvimento da linguagem e habilidades sociais através de arte, música, contação de histórias e atividades em grupo.",
     color: "bg-red-50 border-red-200"
   },
   {
     icon: <BookOpen size={32} className="text-green-500" />,
-    title: "Pre-Kindergarten",
-    age: "Ages 4-5",
-    description: "Preparing children for kindergarten with early literacy, numeracy, science exploration, and enhanced social abilities.",
+    title: "Pré-alfabetização",
+    age: "Idade 3 anos",
+    description: "Preparação para o jardim de infância com atividades de alfabetização inicial, matemática, exploração científica e desenvolvimento social aprimorado.",
     color: "bg-green-50 border-green-200"
-  },
-  {
-    icon: <Calculator size={32} className="text-purple-500" />,
-    title: "Kindergarten",
-    age: "Ages 5-6",
-    description: "Building a strong foundation in reading, writing, and mathematics while fostering independence and problem-solving skills.",
-    color: "bg-purple-50 border-purple-200"
-  },
-  {
-    icon: <Music size={32} className="text-yellow-500" />,
-    title: "Arts Enrichment",
-    age: "All ages",
-    description: "Specialized classes in music, dance, and visual arts to nurture creativity and self-expression.",
-    color: "bg-yellow-50 border-yellow-200"
-  },
-  {
-    icon: <AlarmClock size={32} className="text-pink-500" />,
-    title: "After School Care",
-    age: "Ages 3-6",
-    description: "Extended care with supervised activities, homework help, and recreation for working parents.",
-    color: "bg-pink-50 border-pink-200"
   }
 ];
 
@@ -51,10 +30,10 @@ const ProgramsSection = () => {
     <section id="programs" className="py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Educational Programs</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nossos Programas Educacionais</h2>
           <div className="w-20 h-1 bg-blue-500 mb-6"></div>
           <p className="max-w-3xl text-lg text-gray-700">
-            We offer a variety of programs designed to meet the developmental needs of children at different ages, fostering growth in cognitive, social, emotional, and physical domains.
+            Oferecemos uma variedade de programas projetados para atender às necessidades de desenvolvimento das crianças em diferentes idades, promovendo o crescimento cognitivo, social, emocional e físico.
           </p>
         </div>
 
@@ -79,7 +58,7 @@ const ProgramsSection = () => {
             href="#contact" 
             className="inline-block px-8 py-3 bg-red-500 text-white font-medium rounded-full shadow-md hover:bg-red-600 transition-colors duration-300"
           >
-            Enroll Your Child
+            Matricule seu Filho
           </a>
         </div>
       </div>

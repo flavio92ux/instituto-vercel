@@ -6,7 +6,7 @@ import AboutSection from './components/AboutSection';
 import ProgramsSection from './components/ProgramsSection';
 import GallerySection from './components/GallerySection';
 import TestimonialsSection from './components/TestimonialsSection';
-import NewsEventsSection from './components/NewsEventsSection';
+// import NewsEventsSection from './components/NewsEventsSection';
 import ContactSection from './components/ContactSection';
 import './index.css';
 
@@ -24,7 +24,7 @@ function App() {
         <ProgramsSection />
         <GallerySection />
         <TestimonialsSection />
-        <NewsEventsSection />
+        {/* <NewsEventsSection /> */}
         <ContactSection />
       </main>
       <Footer />

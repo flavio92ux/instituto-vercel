@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, BookOpen, Phone } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Menu, X, Phone } from 'lucide-react';
 import { Link } from './Link';
 import Logo from './Logo';
 
@@ -30,29 +30,29 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Logo />
 
-          {/* Desktop Navigation */}
+          {/* Navegação Desktop */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#home">Home</Link>
-            <Link href="#about">About Us</Link>
-            <Link href="#programs">Programs</Link>
-            <Link href="#gallery">Gallery</Link>
-            <Link href="#testimonials">Testimonials</Link>
-            <Link href="#news">News & Events</Link>
-            <Link href="#contact">Contact</Link>
+            <Link href="#home">Início</Link>
+            <Link href="#about">Sobre nós</Link>
+            <Link href="#programs">Programas</Link>
+            <Link href="#gallery">Galeria</Link>
+            <Link href="#testimonials">Depoimentos</Link>
+            <Link href="#news">Notícias & Eventos</Link>
+            <Link href="#contact">Contato</Link>
           </nav>
 
-          {/* Contact Button - Desktop */}
+          {/* Botão de Contato - Desktop */}
           <div className="hidden md:flex items-center">
             <a 
               href="tel:+1234567890" 
               className="flex items-center px-4 py-2 text-sm font-medium text-white bg-red-500 rounded-full shadow-sm hover:bg-red-600 transition-colors duration-300"
             >
               <Phone size={16} className="mr-2" />
-              Call Us
+              Contate-nos
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Botão do Menu Mobile */}
           <button
             className="md:hidden p-2 text-blue-500 hover:text-blue-700 focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -62,25 +62,25 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Navegação Mobile */}
       {isMenuOpen && (
         <div className="md:hidden bg-white">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
-              <Link href="#home" onClick={() => setIsMenuOpen(false)}>Home</Link>
-              <Link href="#about" onClick={() => setIsMenuOpen(false)}>About Us</Link>
-              <Link href="#programs" onClick={() => setIsMenuOpen(false)}>Programs</Link>
-              <Link href="#gallery" onClick={() => setIsMenuOpen(false)}>Gallery</Link>
-              <Link href="#testimonials" onClick={() => setIsMenuOpen(false)}>Testimonials</Link>
-              <Link href="#news" onClick={() => setIsMenuOpen(false)}>News & Events</Link>
-              <Link href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+              <Link href="#home" onClick={() => setIsMenuOpen(false)}>Início</Link>
+              <Link href="#about" onClick={() => setIsMenuOpen(false)}>Sobre nós</Link>
+              <Link href="#programs" onClick={() => setIsMenuOpen(false)}>Programas</Link>
+              <Link href="#gallery" onClick={() => setIsMenuOpen(false)}>Galeria</Link>
+              <Link href="#testimonials" onClick={() => setIsMenuOpen(false)}>Depoimentos</Link>
+              <Link href="#news" onClick={() => setIsMenuOpen(false)}>Notícias & Eventos</Link>
+              <Link href="#contact" onClick={() => setIsMenuOpen(false)}>Contato</Link>
               <a 
                 href="tel:+1234567890" 
                 className="flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-white bg-red-500 rounded-full shadow-sm hover:bg-red-600 transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <Phone size={16} className="mr-2" />
-                Call Us
+                Contate-nos
               </a>
             </nav>
           </div>
