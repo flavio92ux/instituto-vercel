@@ -73,7 +73,7 @@ const Footer = () => {
                 <Clock size={20} className="text-red-500 mr-2 flex-shrink-0" />
                 <div>
                   <p className="text-white font-medium">Segunda a Sexta</p>
-                  <p className="text-gray-400">7:00 - 17:00</p>
+                  <p className="text-gray-400">07h - 17h</p>
                 </div>
               </li>
               {/* <li className="flex items-center mt-4">
