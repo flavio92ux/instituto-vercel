@@ -34,7 +34,7 @@ const HeroSection = () => {
                 href="#programs" 
                 className="inline-flex items-center px-6 py-3 text-blue-500 border-2 border-blue-500 rounded-full hover:bg-blue-50 transition-colors duration-300"
               >
-                Explorar Programas
+                Explorar
               </a>
             </div>
           </div>
