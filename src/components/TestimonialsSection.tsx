@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">O que os pais dizem</h2>
           <div className="w-20 h-1 bg-red-500 mb-6"></div>
           <p className="max-w-3xl text-lg text-blue-100">
-            Ouça de nossas famílias maravilhosas sobre suas experiências na KidsLearn Academy.
+            Ouça de nossas famílias maravilhosas sobre suas experiências sobre o Instituto.
           </p>
         </div>
 

@@ -12,7 +12,7 @@ import './index.css';
 
 function App() {
   useEffect(() => {
-    document.title = 'KidsLearn Academy | Nurturing Young Minds';
+    document.title = 'Instituto Ser Feliz | Industrial - Contagem';
   }, []);
 
   return (
