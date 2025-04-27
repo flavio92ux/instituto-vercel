@@ -4,27 +4,27 @@ import { X } from 'lucide-react';
 const images = [
   {
     src: "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Children painting together"
+    alt: "Crianças pintando juntas"
   },
   {
     src: "https://images.pexels.com/photos/296301/pexels-photo-296301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Child playing with blocks"
+    alt: "Criança brincando com blocos"
   },
   {
     src: "https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Outdoor playground activities"
+    alt: "Atividades no parquinho ao ar livre"
   },
   {
     src: "https://images.pexels.com/photos/6393345/pexels-photo-6393345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Group reading time"
+    alt: "Hora da leitura em grupo"
   },
   {
     src: "https://images.pexels.com/photos/8535104/pexels-photo-8535104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Science experiment for kids"
+    alt: "Experiência científica para crianças"
   },
   {
     src: "https://images.pexels.com/photos/8613353/pexels-photo-8613353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Music class with instruments"
+    alt: "Aula de música com instrumentos"
   }
 ];
 
@@ -45,10 +45,10 @@ const GallerySection = () => {
     <section id="gallery" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our School Gallery</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Galeria da Nossa Escola</h2>
           <div className="w-20 h-1 bg-red-500 mb-6"></div>
           <p className="max-w-3xl text-lg text-gray-700">
-            Take a peek inside our school and see our beautiful facilities and happy children engaged in learning and play.
+            Dê uma olhada dentro da nossa escola e veja nossas lindas instalações e as crianças felizes envolvidas em atividades de aprendizagem e brincadeiras.
           </p>
         </div>
 

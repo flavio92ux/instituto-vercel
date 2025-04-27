@@ -3,46 +3,46 @@ import { Calendar, Clock, MapPin, ArrowRight } from 'lucide-react';
 
 const newsItems = [
   {
-    title: "Summer Camp Registration Now Open",
-    date: "May 15, 2025",
-    excerpt: "Our exciting summer camp program is now open for registration. Spaces are limited, so register early!",
+    title: "Inscrições para o Acampamento de Verão Abertas",
+    date: "15 de maio de 2025",
+    excerpt: "Nosso empolgante programa de acampamento de verão está com as inscrições abertas. As vagas são limitadas, então inscreva-se cedo!",
     image: "https://images.pexels.com/photos/296302/pexels-photo-296302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Announcement"
+    category: "Anúncio"
   },
   {
-    title: "New Art Program Starting This Fall",
-    date: "April 28, 2025",
-    excerpt: "We're excited to announce our new art program led by professional artist Ms. Garcia, starting this fall semester.",
+    title: "Novo Programa de Arte Começando Neste Outono",
+    date: "28 de abril de 2025",
+    excerpt: "Estamos empolgados em anunciar nosso novo programa de arte liderado pela artista profissional Sra. Garcia, começando neste semestre de outono.",
     image: "https://images.pexels.com/photos/159579/crayons-coloring-book-coloring-book-159579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Programs"
+    category: "Programas"
   },
   {
-    title: "Parent-Teacher Conference Schedule",
-    date: "April 10, 2025",
-    excerpt: "Spring parent-teacher conferences will be held next month. Please check the schedule and book your preferred time slot.",
+    title: "Agenda da Conferência de Pais e Professores",
+    date: "10 de abril de 2025",
+    excerpt: "As conferências de pais e professores da primavera serão realizadas no próximo mês. Por favor, consulte a agenda e reserve o seu horário preferido.",
     image: "https://images.pexels.com/photos/7683802/pexels-photo-7683802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Events"
+    category: "Eventos"
   }
 ];
 
 const upcomingEvents = [
   {
-    title: "Open House",
-    date: "June 10, 2025",
+    title: "Dia de Portas Abertas",
+    date: "10 de junho de 2025",
     time: "9:00 AM - 12:00 PM",
-    location: "Main Campus"
+    location: "Campus Principal"
   },
   {
-    title: "End of Year Celebration",
-    date: "June 25, 2025",
+    title: "Celebração de Fim de Ano",
+    date: "25 de junho de 2025",
     time: "3:00 PM - 5:00 PM",
-    location: "School Auditorium"
+    location: "Auditório da Escola"
   },
   {
-    title: "Parent Workshop: Early Literacy",
-    date: "July 5, 2025",
+    title: "Oficina para Pais: Alfabetização Precoce",
+    date: "5 de julho de 2025",
     time: "6:30 PM - 8:00 PM",
-    location: "Library"
+    location: "Biblioteca"
   }
 ];
 
@@ -51,16 +51,16 @@ const NewsEventsSection = () => {
     <section id="news" className="py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">News & Upcoming Events</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Notícias & Eventos Futuros</h2>
           <div className="w-20 h-1 bg-blue-500 mb-6"></div>
           <p className="max-w-3xl text-lg text-gray-700">
-            Stay updated with the latest news and events happening at KidsLearn Academy.
+            Fique atualizado com as últimas notícias e eventos acontecendo na KidsLearn Academy.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Latest News</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Últimas Notícias</h3>
             <div className="space-y-8">
               {newsItems.map((item, index) => (
                 <div key={index} className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:translate-y-[-5px]">
@@ -81,7 +81,7 @@ const NewsEventsSection = () => {
                     <h4 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h4>
                     <p className="text-gray-700 mb-4">{item.excerpt}</p>
                     <a href="#" className="text-blue-500 font-medium flex items-center hover:text-blue-700 transition-colors">
-                      Read more <ArrowRight size={16} className="ml-1" />
+                      Leia mais <ArrowRight size={16} className="ml-1" />
                     </a>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const NewsEventsSection = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Upcoming Events</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Eventos Futuros</h3>
             <div className="bg-blue-50 rounded-lg p-6">
               <div className="space-y-6">
                 {upcomingEvents.map((event, index) => (
@@ -121,7 +121,7 @@ const NewsEventsSection = () => {
                   href="#" 
                   className="inline-block px-4 py-2 bg-blue-500 text-white font-medium rounded-full shadow-md hover:bg-blue-600 transition-colors duration-300"
                 >
-                  View All Events
+                  Ver Todos os Eventos
                 </a>
               </div>
             </div>
