@@ -21,7 +21,7 @@ const AboutSection = () => {
               className="rounded-lg shadow-xl w-full h-auto object-cover"
             />
           </div>
-          <div>
+          <div className='hidden lg:block'>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Nossa Filosofia</h3>
             <p className="text-gray-700 mb-6">
               Acreditamos que cada criança é única e merece uma educação adaptada às suas necessidades, interesses e estilo de aprendizado. Nosso currículo baseado em brincadeiras estimula a curiosidade, criatividade e pensamento crítico, construindo as bases para um amor pela aprendizagem que dura toda a vida.
