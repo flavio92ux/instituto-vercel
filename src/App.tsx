@@ -20,7 +20,7 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        <AboutSection />
+        {/* <AboutSection /> */}
         <ProgramsSection />
         <GallerySection />
         <TestimonialsSection />

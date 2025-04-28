@@ -37,7 +37,7 @@ const Footer = () => {
               <li><a href="#programs" className="text-gray-400 hover:text-white transition-colors">Nossos Programas</a></li>
               <li><a href="#gallery" className="text-gray-400 hover:text-white transition-colors">Galeria</a></li>
               <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Depoimentos</a></li>
-              <li><a href="#news" className="text-gray-400 hover:text-white transition-colors">Notícias & Eventos</a></li>
+              {/* <li><a href="#news" className="text-gray-400 hover:text-white transition-colors">Notícias & Eventos</a></li> */}
               <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Fale Conosco</a></li>
             </ul>
           </div>

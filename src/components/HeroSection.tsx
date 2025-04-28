@@ -20,7 +20,7 @@ const HeroSection = () => {
               <span className="text-red-500"> Construir </span> Futuros Brilhantes
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg">
-            No Instituto Ser Feliz, criamos um ambiente acolhedor onde crianças e famílias em situação de vulnerabilidade podem crescer e se desenvolver por meio de atividades educativas e sociais.
+            O Instituto Ser Feliz é uma instituição filantrópica localizada no bairro Industrial, em Contagem, Minas Gerais. Fundado em 7 de julho de 1980 por um grupo de mães com o objetivo de oferecer apoio às famílias carentes da região, a instituição inicialmente era conhecida como Creche Criança Feliz.
             </p>
             <div className="flex flex-wrap gap-4">
               <a 

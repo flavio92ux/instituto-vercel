@@ -37,7 +37,7 @@ const Header = () => {
             <Link href="#programs">Programas</Link>
             <Link href="#gallery">Galeria</Link>
             <Link href="#testimonials">Depoimentos</Link>
-            <Link href="#news">Notícias & Eventos</Link>
+            {/* <Link href="#news">Notícias & Eventos</Link> */}
             <Link href="#contact">Contato</Link>
           </nav>
 

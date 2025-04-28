@@ -1,26 +1,25 @@
-import React from 'react';
-import { Baby, AlarmClock, Palette, Music, BookOpen, Calculator } from 'lucide-react';
+import { Baby, Palette, BookOpen } from 'lucide-react';
 
 const programs = [
   {
     icon: <Baby size={32} className="text-blue-500" />,
-    title: "Programa para Bebês",
-    age: "Idades 1-3 anos",
-    description: "Uma introdução suave ao ambiente escolar com muitas brincadeiras, histórias e atividades que desenvolvem habilidades motoras finas e grossas.",
+    title: "Maternal I",
+    age: "Idades 1 ano",
+    description: "Para crianças de 1 ano, focando no desenvolvimento inicial e socialização.",
     color: "bg-blue-50 border-blue-200"
   },
   {
     icon: <Palette size={32} className="text-red-500" />,
-    title: "Educação Infantil",
-    age: "Idades 2-3 anos",
-    description: "Foco na criatividade, desenvolvimento da linguagem e habilidades sociais através de arte, música, contação de histórias e atividades em grupo.",
+    title: "Maternal II",
+    age: "Idades 2 anos",
+    description: "Atendendo crianças de 2 anos, com atividades lúdicas e desenvolvimento motor.",
     color: "bg-red-50 border-red-200"
   },
   {
     icon: <BookOpen size={32} className="text-green-500" />,
-    title: "Pré-alfabetização",
+    title: "Maternal III",
     age: "Idade 3 anos",
-    description: "Preparação para o jardim de infância com atividades de alfabetização inicial, matemática, exploração científica e desenvolvimento social aprimorado.",
+    description: "Para crianças de 3 anos, preparando para a próxima fase educacional.",
     color: "bg-green-50 border-green-200"
   }
 ];
